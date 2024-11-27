@@ -1,0 +1,51 @@
+.container-main {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.img-logo {
+    position: fixed;
+    top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.form input {
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+}
+
+.form label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+}
+
+.button-form {
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0dab77;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-form:hover {
+    background-color: #09935B;
+}
